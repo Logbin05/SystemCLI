@@ -3,7 +3,7 @@ use crossterm::{
     execute,
     terminal::{EnterAlternateScreen, LeaveAlternateScreen, disable_raw_mode, enable_raw_mode},
 };
-use std::{collections::HashMap, error::Error, ops::SubAssign, time::Duration};
+use std::{collections::HashMap, error::Error, time::Duration};
 use sysinfo::{Networks, System};
 use tui::{
     Terminal,
